@@ -50,7 +50,6 @@ cp .env.example .env          # En Windows: copy .env.example .env
 php artisan key:generate
 
 # 3. Crear la base de datos `la_buena_mesa` en MySQL
-#    y ajustar DB_* en .env si tus credenciales son distintas
 
 # 4. Migrar y poblar datos de ejemplo
 php artisan migrate --seed
